@@ -152,7 +152,7 @@ p {
 
 @media (max-width: 600px) {
     .nav-button {
-        display: none;
+        top: 80%;
     }
 
     section {
@@ -161,8 +161,20 @@ p {
         text-align: center;
     }
 
+    h1 {
+    font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
     .animal-info {
-        width: 80%;
+        width: 50%;
         left: 10%;
         top: 20%;
         transform: translateY(0);
